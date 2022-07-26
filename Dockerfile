@@ -1,7 +1,6 @@
 FROM node:alpine3.15
 
 RUN apk add --no-cache git yarn
-use node:alpine3.15
 WORKDIR /app
 
 COPY entrypoint.sh /app/entrypoint.sh
